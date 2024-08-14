@@ -1,0 +1,561 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ .back-video{
+    height: 120vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 5;
+    bottom: 0;
+    z-index: -1;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient (rgba(0,0,0,));
+    background-position: center;
+    background-size: center;
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 80px;
+    padding-top: 10px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+    
+}
+.content{
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 70%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content h1{
+    font-size: large;
+}
+.content h2{
+    margin-top: 10px;
+    font-size: 40px;
+}
+.content h3{
+    margin-top: 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+sectionA .master{
+    display: flex;
+    background-color:whitesmoke;
+    height: 100vh;
+    width: 100%;
+}
+sectionA .master .class{
+    justify-content: center;
+    align-content: center;
+    align-items: end;
+    height: 100vh;
+    width: 50%;
+}
+sectionA .master .class h1{
+    margin-bottom: 20px;
+    margin-left: 200px;
+    font-size: 35px;
+}
+sectionA .master .class p{
+    margin-top: 10px;
+    margin-left: 200px;
+    gap: 5px;
+    font-size: 20px
+}
+sectionA .master .photo img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    transition: 3.0s;
+    align-content: center;
+    position: absolute;
+    top: 400px;
+    
+}
+sectionA .master .photo img:hover{
+    filter: drop-shadow(1px 1px 20px #ff2800);
+    animation-timing-function: 3s;
+    width: 580px;
+    
+}
+sectionA .master .photo{
+    height: 100vh;
+    width: 50%;
+    
+}
+sectionB .bigbox{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+sectionB .bigbox .box1{
+    height: 100vh;
+    width: 50vw;
+    transition: 0.5s;
+}
+sectionB .bigbox .box1 img {
+    height: 100vh;
+    width: 675px;
+    position: absolute;
+    z-index: -1;
+}
+sectionB .box1:hover{
+    transform:scale(1.01);
+    z-index: 10;
+
+}
+
+sectionB .box2:hover{
+    transform:scale(1.01);
+    z-index: 10;
+    
+}
+sectionB .bigbox .box2{
+    height: 100vh;
+    width: 50vw;
+    transition: 0.5s;
+    
+}
+sectionB .bigbox .box2 img {
+    height: 100vh;
+    width: 660px;
+    position: absolute;
+    z-index: -1;
+    
+    
+}
+sectionB .bigbox .box1 h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    margin-top: 535px;
+    margin-left: 225px;
+}
+sectionB .bigbox .box1 h2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    margin-top: 497px;
+    margin-left: 250px;
+}
+sectionB .bigbox .box1 a{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 590px;
+    margin-left: 265px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+    sectionB .bigbox .box1 a:hover{
+        background-color: white;
+        color: rgb(3, 0, 0);
+        border-color: white;
+        transition: 1.0s;
+    }
+    sectionB .bigbox .box2 h2{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        margin-top: 497px;
+        margin-left: 250px;
+        color: white;
+    }
+    sectionB .bigbox .box2 h1{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        margin-top: 535px;
+        margin-left: 135px;
+        color: white;
+    }
+    sectionB .bigbox .box2 a{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 590px;
+        margin-left: 240px;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-style: solid;
+        border-radius: 20px;
+        border-color: white;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 5px;
+        padding-right: 5px;
+        }
+        sectionB .bigbox .box2 a:hover{
+            background-color: white;
+            color: rgb(3, 0, 0);
+            border-color: white;
+            transition: 1.0s;
+        }
+    sectionC .largebox{
+        display: flex;
+        height: 100vh;
+        width: 100%;
+    }
+    sectionC .largebox .room1{
+        height: 100vh;
+        width: 100%;
+        
+    }
+    sectionC .largebox .room1 img{
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    sectionC .largebox .room1 h1{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 450px;
+        color: white;
+        font-size: 45px;
+    }
+    sectionC .largebox .room1 a{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 500px;
+        margin-left: 550px;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-style: solid;
+        border-radius: 20px;
+        border-color: white;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 25px;
+        }
+        sectionC .largebox .room1 a:hover{
+            background-color: white;
+            color: rgb(3, 0, 0);
+            border-color: white;
+            transition: 1.0s;
+        }
+    sectionD .morebox{
+        display: flex;
+        height: 100vh;
+        width: 100%;
+    }
+    sectionD .morebox .sofa1{
+        height: 100%;
+        width: 100%;
+    }
+    sectionD .morebox .sofa1 img{
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    sectionD .morebox .sofa1 h1{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        margin-top: 535px;
+        margin-left: 535px;
+        color: white;
+    }
+    sectionD .morebox .sofa1 a{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        font-size: 20px;
+        margin-top: 590px;
+        margin-left: 540px;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-style: solid;
+        border-radius: 20px;
+        border-color: white;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 5px;
+        padding-right: 5px;
+        }
+        sectionD .morebox .sofa1 a:hover{
+            background-color: white;
+            color: rgb(3, 0, 0);
+            border-color: white;
+            transition: 1.0s;
+        }
+    sectionD .morebox .sofa2{
+        height: 100vh;
+        width: 50%;
+        transition: 0.5s;
+    }
+
+    sectionE .back1 .background1{
+        height: 100vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        position: absolute;
+        z-index: -1;    
+    }
+sectionE .power{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+sectionE .power img{
+    width: 260px;
+    transition: 0.5s;
+    gap: 5px;
+    border-radius: 10px;
+}
+sectionE .power img:hover{
+    width: 280px;
+}
+sectionG .last{
+    height: 50vh;
+    background-color: #333;
+    color: white;
+    
+}
+sectionG .last .list1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 100px ;
+    gap: 20px;
+}
+sectionG h1{
+    font-size: 20px;
+}
+sectionG h2{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+sectionG .list1 a{
+    border-radius: 1px;
+    background-color: #ff2b00;
+    color: white;
+    text-decoration: none;
+    padding: 17px 75px 18px 75px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+sectionF{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+}
+sectionF h1{
+    color: #fff;
+    text-align: center;
+    margin: 3em 0;
+    font-size: 3em;
+}
+sectionF .footer * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+sectionF footer ul{
+    list-style: none;
+    
+}
+sectionF .footer {
+    color: #fff;
+    background: #121315;
+}
+
+sectionF .footer p{
+color: #ccc;
+max-width: 25em;
+font-size: 0.9em;
+line-height: 23px;
+
+}
+sectionF .footer ul{
+    list-style: none;
+}
+
+sectionF .footer a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.footer h4{
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+sectionF .footer .continer{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+    
+}
+sectionF .footer .continer{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+sectionF .brand{
+    display: block;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+sectionF .media-icons li,
+.service-icon li {
+    display: inline-block;
+    margin: 0.5em 0.5em 0.5em 0;
+}
+sectionF .media-icons a{
+    font-size: 1.1em;
+    width: 2em;
+    height: 2em;
+    border: 1px #fff solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+sectionF .media-icons a:hover {
+    background: #fff;
+    color: #111;
+}
+sectionF .service-icon a{
+    font-size: 1.6em;
+}
+sectionF .service-icon a:hover{
+    color: #dbdbdb;
+
+}
+sectionF .footer-bottom{
+    border-top: 1px #dbdbdb solid ;
+
+}
+sectionF .footer .menu{
+    margin-bottom: 3em;
+}
+sectionF .footer .menu li{
+    display: inline-block;
+    margin: 0 0.7em 0.7em 0;
+    text-align: center;
+}
+sectionF .footer .menu a{
+    transform: 0.3s;
+    font-weight: 600;
+}
+sectionF .footer .menu a:hover{
+    color: #ff2b00;
+}
+sectionF .input-wrap {
+    margin: 1em 0;
+    display: flex;
+}
+sectionF .input-wrap input {
+    padding: 0;
+    border: none;
+    background: #20232a;
+    color: #ccc;
+}
+sectionF .input-wrap input:focus {
+    outline: none;
+}
+sectionF .input-wrap input:focus{
+    outline: none;
+}
+sectionF .input-wrap button{
+    padding: 0.8em;
+    background: #ff2b00;
+    border: none;
+    color: #fff;
+}
+sectionF .input-wrap button:hover{
+    background: #fff;
+    color: #111;
+}
+sectionF .last{
+    height: 60px;
+    background-color: #6c0606;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    
+}
+
+@media screen and (max-width:768px){
+    body{
+        display: flex;
+        flex-direction:row;
+    }
+}
+@media screen and (max-width:425px){
+    body{
+        display: flex;
+        flex-direction: row;
+    }
+}
