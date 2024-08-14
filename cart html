@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navbar">
+        <img class="logo" src="https://www.freeiconspng.com/uploads/ferrari-logo-icon-png-0.png">
+        <ul>
+            <li><a href="login.html">RACING</a></li>
+            <li><a href="#">SPORTS CARS</a></li>
+            <li><a href="collection.html">COLLECTIONS</a></li>
+            <li><a href="#">EXPERIENCES</a></li>
+            <li><a href="#">ABOUT US</a></li>
+        </ul>
+    </div>
+    
+
+<!----cart item details-->
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="https://store.ferrari.com/dw/image/v2/BGDG_PRD/on/demandware.static/-/Sites-48/default/dw8914cf77/images/zoom/20128f_112_1.jpg?sw=720&sh=990">
+                    <div>
+                        <p>Printed T-shirt</p>
+                        <small>Price: $650</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$650.00
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="https://store.ferrari.com/dw/image/v2/BGDG_PRD/on/demandware.static/-/Sites-48/default/dwb69af8b9/images/zoom/20403f_01_2.jpg?sw=720&sh=990">
+                    <div>
+                        <p>Printed T-shirt</p>
+                        <small>Price: $650</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$650.00
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="https://store.ferrari.com/dw/image/v2/BGDG_PRD/on/demandware.static/-/Sites-48/default/dwa6359b55/images/zoom/48393f_07_1.jpg?sw=720&sh=990">
+                    <div>
+                        <p>Printed T-shirt</p>
+                        <small>Price: $650</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+            </td>
+            <td><input type="number" value="1"></td>
+            <td>$650.00
+            </td>
+        </tr>
+    </table>
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>$20</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>$1220</td>
+            </tr>
+        </table>
+        
+    </div>
+</div>
+
+<!---footer-->
+    <div class="footer">
+        <div class="continer">
+            <div class="col1">
+                <a href="#" class="brand">Ferrari</a>
+                <ul class="media-icons">
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-tumblr"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col2">
+                <ul class="menu">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, error. Saepe totam quidem voluptatum, quod veritatis, enim tempore non a consectetur unde quam eum. Voluptates unde veniam possimus nesciunt sint.</p>
+            </div>
+            <div class="col3">
+                <p>Buy your dream Ferrari right now IF YOU CAN BUY</p>
+                <form>
+                    <div class="input-wrap">
+                        <input type="email" placeholder="example@gmail.com"/>
+                        <button type="submit">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
+                <ul class="service-icon">
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-cc-amazon-pay"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-apple-pay"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-google-pay"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-cc-visa"></i>
+                    </a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="last">
+        <img src="https://cdn.ferrari.com/cms/network/media/img/resize/5ca48a335d32fb0b9e2ac5b3-shell?">
+    </div>
+</body>
+</html>
