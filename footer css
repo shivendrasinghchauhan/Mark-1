@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    margin: 3em 0;
+    font-size: 3em;
+}
+.footer * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul{
+    list-style: none;
+    
+}
+.footer {
+    color: #fff;
+    background: #121315;
+}
+
+.footer p{
+color: #ccc;
+max-width: 25em;
+font-size: 0.9em;
+line-height: 23px;
+
+}
+.footer ul{
+    list-style: none;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.footer h4{
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+.footer .continer{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+    
+}
+.footer .continer{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+.brand{
+    display: block;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+.media-icons li,
+.service-icon li {
+    display: inline-block;
+    margin: 0.5em 0.5em 0.5em 0;
+}
+.media-icons a{
+    font-size: 1.1em;
+    width: 2em;
+    height: 2em;
+    border: 1px #fff solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.media-icons a:hover {
+    background: #fff;
+    color: #111;
+}
+.service-icon a{
+    font-size: 1.6em;
+}
+.service-icon a:hover{
+    color: #dbdbdb;
+
+}
+.footer-bottom{
+    border-top: 1px #dbdbdb solid ;
+
+}
+.footer .menu{
+    margin-bottom: 3em;
+}
+.footer .menu li{
+    display: inline-block;
+    margin: 0 0.7em 0.7em 0;
+    text-align: center;
+}
+.footer .menu a{
+    transform: 0.3s;
+    font-weight: 600;
+}
+.footer .menu a:hover{
+    color: #ff2b00;
+}
+.input-wrap {
+    margin: 1em 0;
+    display: flex;
+}
+.input-wrap input {
+    padding: 0;
+    border: none;
+    background: #20232a;
+    color: #ccc;
+}
+.input-wrap input:focus {
+    outline: none;
+}
+.input-wrap input:focus{
+    outline: none;
+}
+.input-wrap button{
+    padding: 0.8em;
+    background: #ff2b00;
+    border: none;
+    color: #fff;
+}
+.input-wrap button:hover{
+    background: #fff;
+    color: #111;
+}
+.last{
+    height: 60px;
+    background-color: #6c0606;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+@media screen and (max-width: 900px){
+    .footer .continer{
+        flex-direction: column;
+    }
+}
