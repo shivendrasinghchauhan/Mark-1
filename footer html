@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="footer">
+        <div class="continer">
+            <div class="col1">
+                <a href="#" class="brand">Ferrari</a>
+                <ul class="media-icons">
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-tumblr"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col2">
+                <ul class="menu">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, error. Saepe totam quidem voluptatum, quod veritatis, enim tempore non a consectetur unde quam eum. Voluptates unde veniam possimus nesciunt sint.</p>
+            </div>
+            <div class="col3">
+                <p>Buy your dream Ferrari right now IF YOU CAN BUY</p>
+                <form>
+                    <div class="input-wrap">
+                        <input type="email" placeholder="example@gmail.com"/>
+                        <button type="submit">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
+                <ul class="service-icon">
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-cc-amazon-pay"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-apple-pay"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-google-pay"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-cc-visa"></i>
+                    </a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="last">
+        <img src="https://cdn.ferrari.com/cms/network/media/img/resize/5ca48a335d32fb0b9e2ac5b3-shell?">
+    </div>
+</body>
+</html>
