@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <sectionA>
+        <div class="contact">
+            <h3>search</h3>
+            <h3>contect</h3>
+        </div>
+        <div class="s1">
+            
+            <video autoplay loops muted plays-inline class="back-video">
+                <source src="tatavideo.mp4" type="video/mp4">
+             </video>
+            
+             <input type="checkbox" id="click">
+                <nav>
+                    <img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/Tata-Motors-logo.svg">
+                        <ul>
+                            <li><a href="#">FUTURE OF MOBILITY</a></li>
+                            <li><a href="#">ORGANISATION</a></li>
+                            <li><a href="#">BUSINESS</a></li>
+                            <li><a href="#">CAREERS</a></li>
+                            <li><a href="#">INVESTORS</a></li>
+                            <li><a href="#">CAREERS</a></li>
+                        </ul>
+                    <label for="click"><i class="fa-solid fa-bars"></i></label>
+                </nav>
+                <h1>
+                    A Spotlight on<br> sustainability
+                </h1>
+                
+            </div>
+    </sectionA>
+    <sectionB>
+        <div class="blackg">
+            <div class="pic">
+                <img src="https://static.toiimg.com/photo/98600335/98600335.jpg">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0fN9c2Gf4CYH97iZ94MQDSmfzXkpFT_vDsQ&s">
+                <img src="https://images.hindustantimes.com/auto/img/2023/12/22/900x1600/Curvv_ICE_3_1674320403527_1703229298894.jpg">
+            </div>
+        </div>
+    </sectionB>
+    <sectionC>
+        <div class="shiv">
+            <img src="https://cars.tatamotors.com.np/images/nexon-ev-max/banner-home.jpg">
+            <h1>1 million+<br>
+                Vehicles sold annually</h1>
+        </div>
+    </sectionC>
+    <sectionD>
+            <div  class="s2">
+                <img src="https://www.financialexpress.com/wp-content/uploads/2022/04/Tata-Avinya-Electric-SUV.jpg">
+
+            </div>
+    </sectionD>
+    <sectionE>
+        <div class="s3">
+        
+            <img src="https://www.tatamotors.com/wp-content/themes/TataMotors/images/about-us-banner.jpg">
+        </div>
+    </sectionE>
+    <sectionF>
+        <div class="s4">
+            <img src="">
+        </div>
+    </sectionF>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Future of Mobility</h3>
+                <ul>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Commercial Vehicles</a></li>
+                    <li><a href="#">Passenger Vehicles</a></li>
+                    <li><a href="#">Electric Vehicles</a></li>
+                    <li><a href="#">Luxury Vehicles</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Organisation</h3>
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our History</a></li>
+                    <li><a href="#">Our Leadership</a></li>
+                    <li><a href="#">Our Global Presence</a></li>
+                    <li><a href="#">Subsidiaries and Other Entities</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Innovations</h3>
+                <ul>
+                    <li><a href="#">Corporate Responsibility</a></li>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Planet Resilience</a></li>
+                    <li><a href="#">Working with Communities</a></li>
+                    <li><a href="#">Governance</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Investors</h3>
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Financial Information</a></li>
+                    <li><a href="#">Governance and Regulatory Information</a></li>
+                    <li><a href="#">Shareholder Information</a></li>
+                    <li><a href="#">Fixed Income</a></li>
+                    <li><a href="#">Volumes</a></li>
+                    <li><a href="#">ESOP</a></li>
+                    <li><a href="#">Other Information</a></li>
+                    <li><a href="#">Investor Calendar</a></li>
+                    <li><a href="#">ESG Profile</a></li>
+                    <li><a href="#">Extraordinary Meeting</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Investor Contacts</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Newsroom</h3>
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                    <li><a href="#">Thought Leadership</a></li>
+                    <li><a href="#">Media Library</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Careers</h3>
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Life @ Tata Motors</a></li>
+                    <li><a href="#">Openings @ Tata Motors</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-column subscribe-container">
+                <h3>Subscribe</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Legal Disclaimer | Open Source License Disclosure</p>
+            <p>© Copyright 2024. All rights reserved. Tata Motors Limited.</p>
+        </div>
+    </footer>
+</body>
+</html>
