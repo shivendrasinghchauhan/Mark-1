@@ -1,7 +1,7 @@
 # Mark-1
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Issues](https://img.shields.io/github/issues/your-username/your-repo.svg)](https://github.com/your-username/your-repo/issues)
+[![Issues](https://img.shields.io/github/issues/shivendrasinghchauhan/mark-1.svg)](https://github.com/shivendrasinghchauhan/mark-1/issues)
 
 ## Table of Contents
 
@@ -17,17 +17,17 @@
 
 ## About
 
-This project is a [brief description of what your project does].
+Mark-1 is [brief description of your project goes here].
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will help you set up the project on your local machine for development and testing purposes.
 
 ### Prerequisites
 
 Before cloning the repository, make sure you have Git installed. You can install Git from [here](https://git-scm.com/).
 
-Additionally, ensure that you have the following installed:
+Additionally, ensure you have the following dependencies:
 
 - [List any other prerequisites, like Node.js, Python, etc.]
 
@@ -40,4 +40,4 @@ To clone the repository to your local machine, follow these steps:
 3. Run the following command:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/shivendrasinghchauhan/mark-1.git
