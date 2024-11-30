@@ -547,15 +547,155 @@ sectionF .last{
     
 }
 
-@media screen and (max-width:768px){
-    body{
-        display: flex;
-        flex-direction:row;
+/* Mobile View */
+@media (max-width: 768px) {
+    .back-video {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .banner {
+        height: 100vh;
+        background-size: cover;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .navbar ul {
+        padding: 0;
+    }
+
+    .navbar ul li {
+        margin: 10px;
+    }
+
+    .content {
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0 20px;
+    }
+
+    .content h1,
+    .content h2,
+    .content h3 {
+        font-size: smaller;
+    }
+
+    sectionA .master {
+        flex-direction: column;
+    }
+
+    sectionA .master .class,
+    sectionA .master .photo {
+        width: 100%;
+        text-align: center;
+    }
+
+    sectionA .master .class h1,
+    sectionA .master .class p {
+        margin-left: 0;
+    }
+
+    sectionA .master .photo img {
+        position: static;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    sectionB .bigbox {
+        flex-direction: column;
+    }
+
+    sectionB .bigbox .box1,
+    sectionB .bigbox .box2 {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    sectionB .bigbox .box1 img,
+    sectionB .bigbox .box2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    sectionB .bigbox .box1 h1,
+    sectionB .bigbox .box1 h2,
+    sectionB .bigbox .box2 h1,
+    sectionB .bigbox .box2 h2,
+    sectionB .bigbox .box1 a,
+    sectionB .bigbox .box2 a {
+        position: static;
+        margin: 10px 0;
+    }
+
+    sectionC .largebox .room1 img {
+        height: auto;
+    }
+
+    sectionC .largebox .room1 h1,
+    sectionC .largebox .room1 a {
+        position: static;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    sectionD .morebox {
+        flex-direction: column;
+    }
+
+    sectionD .morebox .sofa1 img {
+        height: auto;
+    }
+
+    sectionD .morebox .sofa1 h1,
+    sectionD .morebox .sofa1 a {
+        position: static;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    sectionE .power {
+        flex-direction: column;
+    }
+
+    sectionE .power img {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    sectionF .footer .continer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    sectionF .footer ul,
+    sectionF .footer .menu {
+        text-align: center;
+        padding: 0;
+    }
+
+    sectionF .footer .menu li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    sectionG .list1 {
+        padding-top: 50px;
+    }
+
+    sectionG .list1 a {
+        padding: 10px 50px;
+        font-size: 14px;
+    }
+
+    sectionF .last {
+        text-align: center;
+        font-size: smaller;
     }
 }
-@media screen and (max-width:425px){
-    body{
-        display: flex;
-        flex-direction: row;
-    }
-}
+
